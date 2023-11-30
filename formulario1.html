@@ -1,0 +1,80 @@
+<html>
+<head>
+  <title>Questionário</title>
+  <meta charset="UTF-8">
+  </head> <body>
+  <center> Teste de conhecimento em Português </center>
+  <Script>
+ function soma(){
+  x=eval(document.querySelector('input[name="DIRETO"]:checked').value)
+   + eval(document.querySelector('input[name="ADVERBIO"]:checked').value)
+   + eval(document.querySelector('input[name="ANTONIMO"]:checked').value)
+   + eval(document.querySelector('input[name="ADJETIVO"]:checked').value)
+   + eval(document.querySelector('input[name="PRONOME"]:checked').value)
+   + eval(document.querySelector('input[name="CONJUNCAO"]:checked').value)
+   + eval(document.querySelector('input[name="SINONIMO"]:checked').value)
+   + eval(document.querySelector('input[name="SUJEITO"]:checked').value)
+   + eval(document.querySelector('input[name="SUBSTANTIVO"]:checked').value)
+   + eval(document.querySelector('input[name="NUMERAL"]:checked').value);
+  document.QI.result.value=x;
+  }
+  </script>
+  <form name="QI">
+  Pergunta 01.: O que é um verbo transitivo direto? <br>
+     <INPUT TYPE="radio" NAME="DIRETO" VALUE="0"> Um verbo diferenciado <br>
+       <INPUT TYPE="radio" NAME="DIRETO" VALUE="0"> Um verbo que transita diretamente entre palavras. <br>
+       <INPUT TYPE="radio" NAME="DIRETO" VALUE="1">  Um verbo que não necessita de uma preposição para se ligar ao complemento direto. <br>
+       <br><br>
+       Pergunta 02.:  O que é um advérbio? <br>
+     <INPUT TYPE="radio" NAME="ADVERBIO" VALUE="1">  Uma palavra que modifica o verbo, o adjetivo ou o próprio advérbio <br>
+       <INPUT TYPE="radio" NAME="ADVERBIO" VALUE="0"> Uma palavra que substitui um substantivo <br>
+       <INPUT TYPE="radio" NAME="ADVERBIO" VALUE="0"> Uma palavra que indica ação <br>
+       <br><br>
+	   Pergunta 03.: Qual é o antônimo de "amor"? <br>
+     <INPUT TYPE="radio" NAME="ANTONIMO" VALUE="0"> Paz <br>
+       <INPUT TYPE="radio" NAME="ANTONIMO" VALUE="1"> Ódio <br>
+       <INPUT TYPE="radio" NAME="ANTONIMO" VALUE="0"> Alegria <br>
+       <br><br>
+	     Pergunta 04.: O que é um adjetivo? <br>
+     <INPUT TYPE="radio" NAME="ADJETIVO" VALUE="1"> Uma palavra que descreve um substantivo <br>
+       <INPUT TYPE="radio" NAME="ADJETIVO" VALUE="0"> Um tipo de artigo definido <br>
+       <INPUT TYPE="radio" NAME="ADJETIVO" VALUE="0"> Um pronome pessoal <br>
+       <br><br>
+	    Pergunta 05.: O que é um pronome pessoal de tratamento? <br>
+     <INPUT TYPE="radio" NAME="PRONOME" VALUE="0"> Um pronome usado para se referir a animais <br>
+       <INPUT TYPE="radio" NAME="PRONOME" VALUE="0"> Um pronome usado para se referir a objetos <br>
+       <INPUT TYPE="radio" NAME="PRONOME" VALUE="1"> Um pronome usado para se referir a pessoas com deferência ou respeito <br>
+       <br><br>
+	    Pergunta 06.: O que é uma conjunção? <br>
+     <INPUT TYPE="radio" NAME="CONJUNCAO" VALUE="1"> Uma palavra que liga palavras ou orações <br>
+       <INPUT TYPE="radio" NAME="CONJUNCAO" VALUE="0"> Um tipo de verbo <br>
+       <INPUT TYPE="radio" NAME="CONJUNCAO" VALUE="0"> Uma forma verbal no pretérito perfeito <br>
+       <br><br>
+	    Pergunta 07.: O que é um sinônimo? <br>
+     <INPUT TYPE="radio" NAME="SINONIMO" VALUE="1">  Uma palavra que tem um significado semelhante a outra  <br>
+       <INPUT TYPE="radio" NAME="SINONIMO" VALUE="0">  Uma palavra que não tem significado próprio <br>
+       <INPUT TYPE="radio" NAME="SINONIMO" VALUE="0">  Uma palavra que tem um significado oposto a outra <br>
+       <br><br>
+	    Pergunta 08.: O que é um sujeito simples? <br>
+     <INPUT TYPE="radio" NAME="SUJEITO" VALUE="0"> O sujeito que é formado por várias palavras <br>
+       <INPUT TYPE="radio" NAME="SUJEITO" VALUE="1"> O sujeito que é formado por apenas uma palavra  <br>
+       <INPUT TYPE="radio" NAME="SUJEITO" VALUE="0"> O sujeito que não possui verbo <br>
+       <br><br>
+	    Pergunta 09.: O que é um substantivo próprio? <br>
+     <INPUT TYPE="radio" NAME="SUBSTANTIVO" VALUE="0"> Um substantivo que se refere a animais <br>
+       <INPUT TYPE="radio" NAME="SUBSTANTIVO" VALUE="0"> Um substantivo que indica uma qualidade ou estado <br>
+       <INPUT TYPE="radio" NAME="SUBSTANTIVO" VALUE="1"> Um substantivo que se refere a algo específico e 
+	   individualizado, como nomes próprios de pessoas, lugares ou instituições <br>
+       <br><br>
+	    Pergunta 10.:  O que é um numeral cardinal? <br>
+     <INPUT TYPE="radio" NAME="NUMERAL" VALUE="1">  Um numeral que expressa quantidade ou número <br>
+       <INPUT TYPE="radio" NAME="NUMERAL" VALUE="0"> Um numeral que indica posse ou pertencimento <br>
+       <INPUT TYPE="radio" NAME="NUMERAL" VALUE="0"> Um numeral que indica a ordem ou posição de algo <br>
+       <br><br>
+       <input type="button" value="Ver Pontuação" onclick="soma()">
+       <br><br>
+       Pontuação.: <input Type="text" name="result" value="">
+</form> 
+ </body>
+ </html>
+ <html>

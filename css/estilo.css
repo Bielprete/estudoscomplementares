@@ -1,0 +1,52 @@
+/*Configurações da Fonte do site*/
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@700&display=swap');
+
+/*Configurações das Cores*/
+:root{
+    --cor1:#0af53d;
+    --cor2:#00CED1;
+    --cor3:#000000;
+    --cor:#ffffff;
+    --cor4:#6bd1cc;
+}
+
+/*Configurações dos Navegadores*/
+*{
+    font-family:'Bold', sans-serif;
+    font-size:18px;
+    font-weight:400;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+/*Formatação do Body*/
+body{
+    background-color:var(--cor4);
+}
+header{
+    max-width:95%;
+    height:auto;
+    margin:0 auto;
+    background-color:var(--cor2);
+    text-align:center;
+    border-radius:0px 0px 12px 12px;
+    padding-top:1rem;
+    box-shadow: 0px 4px 3px var(--cor3);
+}
+
+nav li{
+    display:inline-block;
+    margin:2rem 1rem;
+}
+
+nav a{
+    color:var(--cor1);
+}
+
+nav a:hover{
+    color:var(--cor1);
+    border-bottom:4px solid;
+}

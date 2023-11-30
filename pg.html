@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Correção no atributo width -->
+    <title>Estudos Complementares</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<style>
+    body {
+        background-color: #6bd1cc;
+        color: #000000;
+    }
+    
+    .high-contrast {
+        background-color: #000000;
+        color: #ffffff;
+    }
+</style>
+<script>
+    function toggleContrast() {
+        var bodyElement = document.querySelector('body');
+        bodyElement.classList.toggle('high-contrast');
+    }
+</script>
+<!-- Biblioteca JQuery -->
+<script src="Script/jquery-3.2.1.min.js"></script>
+
+<!-- Script com a função de aumentar a fonte -->
+<script src="Script/alterarFonte.js"></script>
+
+<body>
+    <!-- Botões de acessibilidade -->
+    <div style="position: fixed !important; top: 10px; width: 160px; height: 50px; right: 10px;"> <!-- Correção no posicionamento -->
+        <button class="botao" onclick="alterarFonte('a');" title="Aumentar fonte">A+</button>
+        <button class="botao" onclick="alterarFonte('d');" title="Diminuir fonte">A-</button>
+        <button class="botao" onclick="alterarFonte('n');" title="Fonte normal">A</button>
+        <button onclick="toggleContrast()">Contraste</button>
+    </div>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="logotipo estudos Complementares">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="pg.html">HOME</a></li>
+                <li><a href="portugues.html">PORTUGUES</a></li>
+                <li><a href="Matemática.html">MATEMATICA</a></li>
+                <li><a href="fisica.html">FISICA</a></li>
+                <li><a href="quimica.html">QUIMICA</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <br><br>
+        <center>
+        <p class="acessibilidade">
+            Bem-Vindo ao Estudos Complementares!
+            <br><br>
+            É com grande satisfação que lhe damos as boas-vindas ao nosso espaço virtual, o "Estudos Complementares." 
+            <br>Aqui, você encontrará uma vasta gama de recursos educacionais cuidadosamente elaborados para ajudar você
+            <br> a aprimorar seus conhecimentos e alcançar o sucesso em suas matérias escolares.
+        <br><br><br><br>
+        Explore, Aprenda e Desenvolva-se:<br><br>
+        Em nossa plataforma, reunimos uma coleção diversificada de ferramentas<br> de
+        aprendizado que o guiarão em sua jornada educacional:
+        <br><br><br><br>
+        1. Quiz Interativos:<br><br>
+        Teste seus conhecimentos com nossos desafiantes quizzes interativos.<br>
+        Eles abrangem uma variedade de tópicos, desde matemática até história, garantindo que você<br>
+        tenha uma maneira envolvente de reforçar o que aprendeu na escola.
+        <br><br><br><br>
+       2. Textos Informativos:<br><br>
+       Navegue por nossos artigos informativos, que oferecem uma explicação<br> clara e acessível de conceitos complexos.
+       <br>Eles são projetados para esclarecer suas dúvidas e expandir seu<br> entendimento sobre diferentes assuntos acadêmicos.
+       <br><br><br><br>
+       3. Vídeos Explicativos:<br><br>
+       Aprenda de forma visual com nossa biblioteca de vídeos educativos.<br>
+       Cada vídeo é cuidadosamente elaborado para descomplicar os conceitos e tornar o aprendizado ainda mais agradável.
+       <br><br><br><br>
+       Por que escolher Estudos Complementares?<br><br>
+Qualidade e Precisão: Nossos recursos são desenvolvidos por educadores experientes e<br> especialistas em cada área, garantindo informações precisas e confiáveis.<br>
+Acessibilidade: O Estudos Complementares é acessível a todos, em qualquer lugar e a<br> qualquer hora. Basta ter uma conexão com a internet para aproveitar os benefícios do<br> nosso conteúdo educacional.<br>
+Flexibilidade: Oferecemos uma variedade de materiais de estudo para atender às suas<br> necessidades individuais. Você pode escolher como e quando aprender.<br>
+Aprimoramento Contínuo: Estamos comprometidos em aprimorar constantemente nosso<br> conteúdo e adicionar novos recursos para melhor atendê-lo.<br>
+        </p>
+        <br><br><br><br>
+        Sua Jornada Começa Agora:<br><br>
+        Independentemente de ser um estudante que busca melhorar seu desempenho escolar ou<br>alguém que deseja continuar aprendendo e explorando novos campos, o Estudos<br> Complementares está aqui para apoiá-lo.<br>
+        Explore nosso site, mergulhe em nossos recursos educacionais e comece sua jornada em <br>direção ao conhecimento aprimorado e ao sucesso acadêmico.<br>
+        Juntos, construiremos um futuro mais brilhante, baseado no poder da educação.<br> Bem-vindo ao Estudos Complementares!
+        <br><br><br><br>
+    </center>
+
+</body>
+</html>

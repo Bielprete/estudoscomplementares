@@ -1,0 +1,76 @@
+/*Configurações da Fonte do site*/
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@700&display=swap');
+
+/* styles.css */
+
+/* Definir o fundo como roxo */
+body {
+    background-color: #0d2aad;
+    font-family: 'Pathway Extreme', sans-serif; /* Adicionado fonte personalizada */
+    font-size: 16px; /* Tamanho padrão da fonte */
+    color: #fff; /* Cor do texto padrão */
+}
+
+/* Estilizar a borda da tabela como ciano */
+.table {
+    border: 2px solid #00bcd4;
+}
+
+/* Ajustar a cor do texto dos campos de entrada de dados */
+.input {
+    color: #333; /* Cor do texto padrão */
+}
+
+/* Ajustar a cor do botão de Cadastrar */
+.button.is-success {
+    background-color: #00d1b2;
+    color: white;
+}
+
+/* Alinhar o formulário ao centro verticalmente */
+.hero.is-fullheight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Alterar a cor do texto dos campos de entrada quando focados */
+.input:focus {
+    color: #333; /* Cor do texto padrão */
+}
+
+/* Alterar a cor do texto dos botões quando focados */
+.button.is-success:focus {
+    background-color: #00a6a0;
+}
+
+/* Alterar a cor do link */
+a {
+    color: #00bcd4;
+}
+
+/* Estilizar o cabeçalho */
+h1, h3 {
+    color: #00bcd4;
+}
+
+/* Alterar a cor do texto das notificações */
+.notification {
+    color: #333; /* Cor do texto padrão */
+}
+
+/* Ajustar o tamanho da fonte dos títulos das notificações */
+.notification p {
+    font-size: 18px;
+}
+
+/* Estilizar a borda da tabela como ciano */
+.table {
+    border: 2px solid #00bcd4;
+}
+
+/* Ajustar a cor do botão de Cadastrar */
+.button.is-success {
+    background-color: #00d1b2;
+    color: white;
+}
